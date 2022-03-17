@@ -36,10 +36,7 @@ class _MyAppState extends State<MyApp> {
             Color(0XFF0066FF),
           ],
         )
-            /*image: DecorationImage(
-              image: AssetImage("assets/back.png"),
-              fit: BoxFit.cover,
-            ),*/
+            
             ),
         child: Scaffold(
           backgroundColor: Colors.transparent,
@@ -71,15 +68,7 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
             ),
-            /* title: Text(
-                    "Weather",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: "Body",
-                    ),
-                  ),*/
+           
           ),
           body: Column(children: <Widget>[
             if (_response != null)
