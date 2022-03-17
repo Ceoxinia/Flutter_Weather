@@ -3,10 +3,15 @@
 Flutter Weather Application with APis.
 
 Features : 
+
 -Beautiful UI/UX
--Home Screen : when you find the different cities 
+
+-Home Screen : when you find the different cities
+
 -Search Feature : search for a city 
+
 -Details Screen (in progress)
+
 -Save City Feature : instead of looking for a city every time you can save it and it will appear in the home screen (in progress)
 
 Resources : 
