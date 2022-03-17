@@ -104,6 +104,7 @@ class _MyAppState extends State<MyApp> {
                       add_info_cont('wind', 'assets/wind.png', "x"),
                     ]),
               ),
+            // history track in progress , didn't work on it yet
             Text('Locations you have checked earlier',
                 style: TextStyle(
                     fontSize: 15.0,
