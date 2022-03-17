@@ -68,13 +68,17 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
             ),
-           
+            
           ),
           body: Column(children: <Widget>[
             if (_response != null)
               Container(
                   child: weather_column("assets/Asset1.png",
-                      "${_response!.temp}°", "${_response!.city}")),
+                      "${_response!.temp}°", "${_response!.city}"))
+            else
+              Container(
+                  child: weather_column(
+                      "assets/Asset1.png", "x°", "chose your location")),
             if (_response != null)
               Container(
                 child: Row(
@@ -88,20 +92,31 @@ class _MyAppState extends State<MyApp> {
                       add_info_cont(
                           'wind', 'assets/wind.png', "${_response!.wind}km/h"),
                     ]),
+              )
+            else
+              Container(
+                child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      add_info_cont('humidity', 'assets/humidity.png', "x%"),
+                      add_info_cont('rain', 'assets/umbrella.png', "x"),
+                      add_info_cont('wind', 'assets/wind.png', "x"),
+                    ]),
               ),
             Text('Locations you have checked earlier',
                 style: TextStyle(
-                    fontSize: 20.0,
+                    fontSize: 15.0,
                     color: Colors.white,
                     fontWeight: FontWeight.bold)),
             Container(
                 child: SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Row(children: <Widget>[
-                      add_info_cont('windy', 'assets/snow.png', '10'),
-                      add_info_cont('cold', 'assets/snow.png', '10'),
-                      add_info_cont('rainy', 'assets/snow.png', '10'),
-                      add_info_cont('cold', 'assets/snow.png', '10'),
+                      add_info_cont('Algeria', 'assets/snow.png', '10'),
+                      add_info_cont('Batna', 'assets/snow.png', '10'),
+                      add_info_cont('London', 'assets/snow.png', '10'),
+                      add_info_cont('Tunis', 'assets/snow.png', '10'),
                     ]))),
           ]),
         ));
