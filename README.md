@@ -1,10 +1,18 @@
 # weather_m
 
-A new Flutter project.
+Flutter Weather Application with APis.
 
-## Getting Started
+Features : 
+-Beautiful UI/UX
+-Home Screen : when you find the different cities 
+-Search Feature : search for a city 
+-Details Screen (in progress)
+-Save City Feature : instead of looking for a city every time you can save it and it will appear in the home screen (in progress)
 
-This project is a starting point for a Flutter application.
+Resources : 
+
+For the API part you can use any public api, we can recommend this api as it is very well used https://openweathermap.org/api 
+
 
 A few resources to get you started if this is your first Flutter project:
 
