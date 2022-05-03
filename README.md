@@ -1,8 +1,8 @@
 # weather_m
 
-Flutter Weather Application with APis.
+## Flutter Weather Application with APis.
 
-Features : 
+### Features : 
 
 -Beautiful UI/UX
 
@@ -14,9 +14,9 @@ Features :
 
 -Save City Feature : instead of looking for a city every time you can save it and it will appear in the home screen (in progress)
 
-Resources : 
+### Resources : 
 
-For the API part you can use any public api, we can recommend this api as it is very well used https://openweathermap.org/api 
+For the API part i used this public api, which is very well used https://openweathermap.org/api 
 
 
 A few resources to get you started if this is your first Flutter project:
