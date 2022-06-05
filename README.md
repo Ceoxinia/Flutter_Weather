@@ -4,8 +4,6 @@
 
 ### Features : 
 
--Beautiful UI/UX
-
 -Home Screen : when you find the different cities
 
 -Search Feature : search for a city 
